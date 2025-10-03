@@ -1,10 +1,7 @@
-import matplotlib.pyplot as plt
-from matplotlib.patches import Polygon
-from src.dominio import Poligono, Ponto
-
 
 import matplotlib.pyplot as plt
 from matplotlib.patches import Polygon
+
 
 def plota_fecho_convexo(poligono, pontos):
     coords_x = [ponto.coord_x for ponto in pontos]

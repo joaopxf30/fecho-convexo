@@ -1,1 +1,0 @@
-# fecho-convexo
