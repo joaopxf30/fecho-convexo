@@ -5,7 +5,7 @@ from src.varredura_graham import VarreduraGraham
 
 if __name__ == '__main__':
     pontos = gera_nuvem_pontos(
-        numero_pontos=66,
+        numero_pontos=100,
         base=10,
         altura=10,
     )

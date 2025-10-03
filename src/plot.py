@@ -9,7 +9,7 @@ def plota_fecho_convexo(poligono, pontos):
 
     vertices_poligono = [(v.coord_x, v.coord_y) for v in poligono.vertices]
 
-    fig = plt.figure(figsize=(5, 5))
+    fig = plt.figure(figsize=(5.5, 5))
 
     plot_width, plot_height = 4, 4
     fig_w, fig_h = fig.get_size_inches()
@@ -21,7 +21,7 @@ def plota_fecho_convexo(poligono, pontos):
 
     ax = fig.add_axes((left, bottom, ax_w, ax_h))
 
-    poligono_patch = Polygon(vertices_poligono, closed=True,edgecolor="black", facecolor="lightgray")
+    poligono_patch = Polygon(vertices_poligono, closed=True,edgecolor="black", facecolor="lightcoral")
     ax.add_patch(poligono_patch)
 
     xs, ys = zip(*vertices_poligono)
